@@ -1,0 +1,1 @@
+function initMap(){const n={lat:30.064742,lng:31.249509},o=new google.maps.Map(document.getElementById("map"),{scaleControl:!0,center:n,zoom:10}),e=new google.maps.InfoWindow;e.setContent("<b>القاهرة</b>");const t=new google.maps.Marker({map:o,position:n});t.addListener("click",()=>{e.open(o,t)})}
